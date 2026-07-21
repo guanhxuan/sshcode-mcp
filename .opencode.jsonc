@@ -1,0 +1,16 @@
+{
+  "$schema": "https://opencode.ai/config.json",
+  "mcp": {
+    "sshcode": {
+      "type": "local",
+      "command": ["node", "/Users/ghx/project/sshcode_mcp/bin/sshcode.js"],
+      "environment": {
+        "SSHCODE_HOST": "192.168.1.5",
+        "SSHCODE_USER": "ubuntu",
+        "SSHCODE_PASSWORD": "123",
+        "SSHCODE_PORT": "22"
+      },
+      "timeout": 15000
+    }
+  }
+}
